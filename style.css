@@ -41,7 +41,7 @@ body, html {
   align-items: center;
   margin-top: 50px;
   gap: 15px;
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 355px;
   height: max-content;
 }

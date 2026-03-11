@@ -1,4 +1,9 @@
 /* General reset */
+@font-face {
+  font-family: poppins;
+  src: url(fontstyle\yPoppins.ttf);
+  font-weight: normal;
+}
 body, html {
   margin: 0;
   padding: 0;
@@ -34,41 +39,71 @@ body, html {
 
 }
 
+/*bg*/
+.bg_container {
+  position: relative;
+  top: -300px;
+  left: -230px;
+}
+
+.background_img {
+  position: absolute;
+  top: 300px;
+  left: 250px;
+
+}
+
 /* Form container */
 .form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
-  gap: 15px;
-  /* background-color: aqua; */
+  gap: 35px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255,0.2);
+  backdrop-filter: blur(10px) ;
   width: 355px;
-  height: max-content;
+  height: 400px;
+  padding-top: 33px;
+  margin-top: 450px;
+  margin-left: 450px;
 }
 
-/* Inputs */
+/* Input bar */
 input {
   width: 255px;
   height: 43px;
   padding: 0 10px;
-  border: 1px solid #6a4c93;
-  border-radius: 5px;
+  border-bottom: 3px solid #ffffff;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  background-color: transparent;
+  border-radius: 1px;
   font-size: 14px;
+  font-family: poppins;
+}
+
+input::placeholder {
+  color: white;
 }
 
 /* Buttons */
 button {
-  width: 133px;
-  height: 31px;
-  background-color: #6a4c93;
-  color: white;
+  width: 233px;
+  height: 38px;
+  background-color: #ffffff;
+  font-family: poppins;
+  color: black;
   border: none;
   border-radius: 10px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #3f1082;
+  background-color: #cccbcd;
+  color: #ffffff;
 }
 
 /* Secondary button */

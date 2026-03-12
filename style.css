@@ -22,12 +22,14 @@ body, html {
 /* Header */
 .header {
   width: 100%;
-  height: 120px;
-  background-color: #6a4c93;
+  height: 105px;
+  /* background-color: #6a4c9380; */
+  background-color: #15151590;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  z-index: 2;
 }
 
 .logo {
@@ -36,13 +38,14 @@ body, html {
   object-fit: cover;
   position: relative;
   z-index: 10;
+  top: 12px;
 
 }
 
 /*bg*/
 .bg_container {
   position: relative;
-  top: -300px;
+  top: -420px;
   left: -230px;
 }
 
@@ -66,7 +69,7 @@ body, html {
   width: 355px;
   height: 400px;
   padding-top: 33px;
-  margin-top: 450px;
+  margin-top: 550px;
   margin-left: 450px;
 }
 

@@ -20,10 +20,11 @@
              
     <!-- Login Form -->
     <div class="form-container">
+      <!-- sends data to php-->
       <form action="login.php" method="POST">
-      <input type="email" id="email" placeholder="Email Address">
-      <input type="password" id="password" placeholder="Password">
-      <button id="loginBtn">LOGIN</button>
+      <input type="email" name="email" id="email" placeholder="Email Address" required>
+      <input type="password" name="password" id="password" placeholder="Password" required>
+      <button type="submit">LOGIN</button>
       </form>
       <button id="goSignup">SIGN UP</button>
     </div>
